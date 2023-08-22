@@ -1,7 +1,26 @@
-.lista-menu {
+@import url("styles/header.css");
 
-    display: none;
+@import url("styles/banner.css");
 
-    position:absolute;
+:root {
 
-    top:100%}
+    --cor-de-fundo: #EBECEE;
+
+    --branco: #FFFFFF;
+
+    --laranja: #EB9B00;
+
+
+    --fonte-principal:"poppins"  }
+    
+    
+
+body {
+
+  background-color: var(--cor-de-fundo);
+  
+  font-family: var(--fonte-principal);
+
+  font-size: 16px;
+
+  font-weight: 400;}    
